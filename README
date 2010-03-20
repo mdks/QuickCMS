@@ -1,0 +1,28 @@
+QuickCMS Documentation
+
+Description
+	QuickCMS is a Rails application that will help people new to Ruby on Rails to quickly develop simple database-enabled applications.
+
+Features
+	Simple Content Management System (modified basic scaffold using sqlite3)
+	RedCloth integration for the CMS to hide HTML from your clients
+	Simple HTTP Authentication (uses a hardcoded password in the pages controller)
+	AJAX & HTML responsive buttons in the header (with mouseover effect)
+	Simple Javascript slideshow
+	Ability to set specific image(s) in the slideshow area, for any content page
+
+Usage
+	1. Load QuickCMS in your text editor
+	2. Delete this file (quickcms/public/index.html)
+	3. Uncomment the code in the "pages" scaffold view, index.html.erb
+	4. Modify the HTTP authentication user/pass in the pages controller
+	5. Run script/server and point browser to localhost:3000/admin (admin/pass)
+	6. Add new pages to your database and/or modify existing ones, edit appropriate files to make them work
+	7. Modify/create images in the quickcms/public/images/ directory
+	8. Learn the rest by reading the comments and looking at code
+	9. If you find QuickCMS useful, think about how to make it better and contribute to the project. For example, a hardcoded user/pass is pretty bad :)
+
+Credits
+
+The wonderful opensource community and everyone involved--past, present, & future. Thank you!
+QuickCMS is written by Keyvan Fatehi and is free for use by anyone.
