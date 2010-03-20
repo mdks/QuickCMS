@@ -1,0 +1,14 @@
+<!--
+	If you decide to use the slideshow, you can load different
+ 	images here, or set them all to one image for that particular page
+-->
+<% javascript_tag :class=>"body" do -%>
+	// If you have a special image for this section, use the code below
+	// document.images.slide.src="/images/slideshow/experience.jpg"
+	// image1.src="images/slideshow/experience.jpg"
+	// image2.src="images/slideshow/experience.jpg"
+	// image3.src="images/slideshow/experience.jpg"
+	// image4.src="images/slideshow/experience.jpg"
+	// image5.src="images/slideshow/experience.jpg"
+<% end -%>
+<%= RedCloth.new(@page.html).to_html -%>

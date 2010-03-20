@@ -1,0 +1,22 @@
+<!-- This is the layout for the public pages, personalize it! -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Change me!</title>
+	<%= stylesheet_link_tag "layout", :media => "all" %>
+	<%= stylesheet_link_tag "content", :media => "all" %>
+	<%= javascript_include_tag :defaults %>
+	<%= javascript_include_tag "slideshow_init" %>
+</head>
+<body>
+	<div class="header">
+		<%= render :partial => "header" -%>
+	</div>
+	<div class="body">
+		<div id="slideshow">
+			<img src="images/slideshow/skyclock.jpg" name="slide">
+			<%= javascript_include_tag "slideshow_do" %>
+		</div>
+		<div id="content"><%= yield %></div>
+	</div>
+</body>

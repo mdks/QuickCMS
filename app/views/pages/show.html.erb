@@ -1,0 +1,20 @@
+<center>
+	<h1>Reviewing "<%= @page.name -%>"</h1>
+
+	<%= image_tag("header/"+@page.name+".jpg", :mouseover => "header/"+@page.name+"-on.jpg") -%>
+
+<p>
+  <b>This is how your page looks to the public right now!</b>
+</p>
+</center>
+<p>
+  <div class="content"><%= RedCloth.new(@page.html).to_html %></div>
+</p>
+<center>
+<p><b>Make sure the above content is acceptable!</b></p>
+
+<h2><%= link_to 'Edit Again', edit_page_path(@page) %> |
+<%= link_to 'Admin Panel', pages_path %></h2>
+
+<p><%= link_to "Accept changes & exit administrative panel", :root -%></p>
+</center>

@@ -1,0 +1,22 @@
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-03-20 09:27:09) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://localhost/admin]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-03-20 09:27:12) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://localhost/admin]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-03-20 09:27:16) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://localhost/admin]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-03-20 09:27:32) [GET]
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM "pages" [0m
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 97ms (View: 92, DB: 1) | 200 OK [http://localhost/admin]

@@ -1,0 +1,10 @@
+var image1=new Image()
+image1.src="images/slideshow/brownwall.jpg"
+var image2=new Image()
+image2.src="images/slideshow/ceiling.jpg"
+var image3=new Image()
+image3.src="images/slideshow/floorplan.jpg"
+var image4=new Image()
+image4.src="images/slideshow/metalgirders.jpg"
+var image5=new Image()
+image5.src="images/slideshow/skyclock.jpg"

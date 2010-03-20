@@ -1,0 +1,26 @@
+<center>
+<h1>Administrative Panel</h1>
+<h3>Click image beside text to edit</h3>
+<table>
+
+<% for page in @pages %>
+  <tr>
+    <td>
+		<%= link_to image_tag("header/"+page.name+".jpg", :mouseover => "header/"+page.name+"-on.jpg"), edit_page_path(page) %>
+	</td>
+    <td>
+		<div class="content"><%= RedCloth.new(page.html).to_html %></div>
+	</td>
+    <td>
+		<!-- Hidden in production -->
+		<%#= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete %>
+	</td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<p><%= link_to "Exit administrative panel", :root -%></p>
+</center>
+<!-- Hidden in production -->
+<%#= link_to 'New page', new_page_path %>

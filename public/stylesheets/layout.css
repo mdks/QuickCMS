@@ -1,0 +1,79 @@
+a:link {color:#E71000;}      /* unvisited link */
+a:visited {color:#E71000;}  /* visited link */
+a:hover {color:#FF3128;}  /* mouse over link */
+a:active {color:#E71000;}  /* selected link */
+a {outline:none;}
+
+html, body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 1200px;
+	background-color: #000;
+}
+
+img {
+	border-style: none;
+}
+
+div.header {
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 108px;
+}
+
+div.body {
+	width: 800px;
+	height: 1592px;
+	background-image: url("../images/body.jpg");
+}
+
+div#content {
+	padding: 10px;
+	position: relative;
+	top: 110px;
+	left: 140px;
+	right: 160px;
+	width: 500px;
+	color: #DDD;
+	background: none;
+	border:5px solid black;
+	/* for IE */
+	filter:alpha(opacity=50);
+	/* CSS3 standard */
+	opacity:0.5;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	font-family: "Lucida Console";
+}
+
+p, li, b, i {
+	font-family: "Lucida Console";
+	font-size: 18px;
+}
+
+div#slideshow {
+	padding: 0px;
+	position: relative;
+	top: 100px;
+	left: 20px;
+	right: 30px;
+	width: 770px;
+/*	height: 170px; */
+	background-color:#FFF;
+	border:5px solid black;
+	/* for IE */
+	filter:alpha(opacity=50);
+/*	 CSS3 standard **/
+	opacity:0.5;	*/
+}
+
+
+
+
+

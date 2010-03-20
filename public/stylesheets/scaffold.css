@@ -1,0 +1,76 @@
+body { background-color: #000; color: #FFF; }
+a {outline:none;}
+
+div.content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width:400px;
+	background-color:#FFF;
+	color: #000;
+	border:1px solid black;
+	/* for IE */
+	filter:alpha(opacity=50);
+	/* CSS3 standard */
+	opacity:0.5;
+}
+
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #000;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a { color: #FFF; }
+a:visited { color: #FFF; }
+a:hover { color: #fff; background-color:#000; }
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #FFF;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #F00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #FFF;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+img {
+	border-style: none;
+}
+

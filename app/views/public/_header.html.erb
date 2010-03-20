@@ -1,0 +1,10 @@
+<!--
+	This partial is for your navigation bar
+	Right now it has image links with a rollover effect
+-->
+<%= link_to_remote image_tag("header/about.jpg", :size => "193x108", :alt => "About Us", :mouseover => "header/about-on.jpg"), {:update => "content", :url => {:action => "about"}}, {:href => url_for(:action => "about")} -%>
+<%= link_to_remote image_tag("header/services.jpg", :size => "157x108", :alt => "Services", :mouseover => "header/services-on.jpg"), {:update => "content", :url => {:action => "services"}}, {:href => url_for(:action => "services")} -%>
+<%= link_to_remote image_tag("header/home.jpg", :size => "117x108", :alt => "Home", :mouseover => "header/home-on.jpg"), {:update => "content", :url => {:action => "home"}}, {:href => url_for(:action => "home")} -%>
+<%= link_to_remote image_tag("header/experience.jpg", :size => "173x108", :alt => "Experience", :mouseover => "header/experience-on.jpg"), {:update => "content", :url => {:action => "experience"}}, {:href => url_for(:action => "experience")} -%>
+<%= link_to_remote image_tag("header/careers.jpg", :size => "160x108", :alt => "Careers", :mouseover => "header/careers-on.jpg"), {:update => "content", :url => {:action => "careers"}}, {:href => url_for(:action => "careers")} -%>
+

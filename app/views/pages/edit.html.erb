@@ -1,0 +1,21 @@
+<center>
+<h1>Currently Editing "<%= @page.name -%>"</h1>
+<%= image_tag("header/"+@page.name+".jpg", :mouseover => "header/"+@page.name+"-on.jpg") -%>
+
+<% form_for(@page) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.text_area :html %>
+  </p>
+  <p>
+    <%= f.submit "Save Changes and View Results!" %>
+  </p>
+<% end %>
+
+
+<p><%= link_to 'Abandon changes & go back to Admin Panel', pages_path %></p>
+
+<p><%= link_to "Abandon changes & exit administrative panel", :root -%></p>
+
+</center>

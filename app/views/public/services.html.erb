@@ -1,0 +1,12 @@
+<!--
+	If you decide to use the slideshow, you can load different
+ 	images here, or set them all to one image for that particular page
+-->
+<% javascript_tag :class=>"body" do -%>
+	image1.src="images/slideshow/brownwall.jpg"
+	image2.src="images/slideshow/ceiling.jpg"
+	image3.src="images/slideshow/floorplan.jpg"
+	image4.src="images/slideshow/metalgirders.jpg"
+	image5.src="images/slideshow/skyclock.jpg"
+<% end -%>
+<%= RedCloth.new(@page.html).to_html -%>
